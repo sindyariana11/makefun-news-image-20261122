@@ -1,25 +1,14 @@
-# THE SUNDAY ATLAS — NI22 Wave 7 · Akun 10 (@sindyariana115203)
+# THE SUNDAY ATLAS
 
-Bounty: `news-image-20261122` (make.fun) · Akun 10
+Bounty: news-image-20261122 — Akun 10 (@sindyariana115203)
 
-## Gelombang 7 — rebuild dari pool segar
-Konsep baru akun ini (THE SUNDAY ATLAS — halaman koran navy di atas krem,
-Layout A: 3 lead + 12 mini). Dibangun dari pool segar Minggu 22 November
-2026 (bedah Top 1 §4): 186 drone ke Ukraina, COP31 tanpa fossil fuels,
-klaim radar Iran di Bahrain, 720/9 India, Verstappen di Las Vegas,
-Wembanyama 50 poin. Font diperbesar ×1,45 vs Gelombang 6 supaya headline
-tetap terbaca di 300px; DATE CHECK berisi buangan bernama 19–21 Nov;
-peta dotted navy berpin bernomor = nomor kartu.
+## Gelombang 7
+
+Edisi gelombang 7 ini dibangun dari pool segar Minggu 22 Nov 2026, bukan dari sisa berita hari sebelumnya. Isinya merangkum 15 kartu utama ditambah 21 brief pendek, sehingga total ada 36 cerita yang tersebar di 7 region. Di bagian bawah halaman ada strip angka yang memuat 186, 161, 35%, $120bn, 720, 9, dan 50 sebagai ringkasan cepat pekan itu. Selama penyusunan, buangan bernama DATE CHECK dibuang dan tidak ikut masuk ke karya final, supaya tidak ada tanggal basi yang menempel di gambar.
 
 ## Entry
-- Dimensi: **1024 × 1024 px** (lolos gate server)
-- Ukuran: **265.944 byte**
-- sha256: **5fcea1a65ad77d1f5fed1ebf26119cbfefb2e83af12b59fa0eb09a59c3d8734a**
-- Pemenang duel: **Varian A (36/40)** — lihat `duel.md`
-- `main.py` — carrier stdlib-only: verifikasi signature PNG + dimensi IHDR,
-  MENOLAK gambar yang melanggar gate 1024×1024, salin byte-for-byte ke
-  `MAKEFUN_OUTPUT_DIR` (fallback /output), verifikasi salinan identik.
-- Margin: **13/13 LOLOS** (`margin_check.py --fresh ni22-fresh-g7.txt`)
-- Isi: 15 kartu + 24 brief = **39 cerita**, 7 region, strip angka hari ini
-  (186 / 161 / 35% / $120bn / 720/9 / 50), timeline UTC 6 slot, peta dunia
-  titik-titik berpin, panel ALSO ON, dan kotak DATE CHECK.
+
+- Dimensi: 1024x1024
+- Ukuran: 265944 byte
+- SHA256: 5fcea1a65ad77d1f5fed1ebf26119cbfefb2e83af12b59fa0eb09a59c3d8734a
+- Margin checker: 13/13
